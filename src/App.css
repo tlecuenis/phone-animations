@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+}
+
+.iphone{
+  display: grid;
+  place-content: center;
+}
+
+.chasis{
+  display: grid;
+  place-content: center;
+  width: 229px;
+  height: 480px;
+  background-color: gray;
+  border-radius: 30px;
+}
+
+.separation{
+  display: grid;
+  place-content: center;
+  width: 222px;
+  height: 473px;
+  background-color: black;
+  border-radius: 27px;
+}
+
+button:hover{
+  cursor: pointer;
+}
