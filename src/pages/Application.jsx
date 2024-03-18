@@ -2,6 +2,10 @@ import './application.css'
 import { useContext, useState } from 'react'
 import { PageContext } from '../context/page.jsx'
 import {animationControls, motion, px, useScroll} from 'framer-motion'
+import searchIcon from '../assets/Icons/search-icon.png'
+import batteryIcon from '../assets/Icons/battery-icon.png'
+import signalIcon from '../assets/Icons/signal-icon.png'
+import wifiIcon from '../assets/Icons/wifi-icon.png'
 
 
 function Application() {
@@ -24,9 +28,9 @@ function Application() {
                 <p className='show-time'>00:00</p>
                 <div className='dynamic-island'></div>
                 <div className='top-side-logos'>
-                    <p>S</p>
-                    <p>W</p>
-                    <p>B</p>
+                    <img src={signalIcon} alt="" />
+                    <img src={wifiIcon} alt="" />
+                    <img src={batteryIcon} alt="" />
                 </div>
             </div>
             <button className={animation == true ? "back-animation " : "back"} onClick={backToHomescreen}>❌</button>

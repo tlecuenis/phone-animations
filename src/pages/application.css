@@ -9,42 +9,6 @@
     background-color: white;
     border-radius: 25px;
   }
-  
-  .top-side{
-    display: grid;
-    grid-template-columns: 1fr 65px 1fr;
-    place-content: center;
-    gap: 12px;
-    height: 30px;
-    font-size: 10px;
-    font-weight: bold;
-    
-  }
-  .show-time{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* text-align: center; */
-    /* margin: 0; */
-    margin: 0 5px;
-  }
-  .dynamic-island{
-    /* margin: 0px auto; */
-    margin-top: 6px;
-    width: 65px;
-    height: 18px;
-    background-color: black;
-    border-radius: 15px;
-  }
-  .top-side-logos{
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-    gap: 5px;
-    /* margin: 0; */
-    margin: 0 5px;
-    
-  }
 
   .back{
     align-self: flex-start;
@@ -66,5 +30,4 @@
     width: 0px;
     height: 0px;
     border-radius: 999999px;
-
   }
